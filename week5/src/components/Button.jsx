@@ -5,5 +5,5 @@ function Button({ onClick, children }) {
   return <button onClick={onClick}>{children}</button>;
 }
 
-// React.memo 적용하여 props 변경 없으면 재렌더링 방지
-export default React.memo(Button);
+//TODO: React.memo 적용하여 props 변경 없으면 재렌더링 방지
+

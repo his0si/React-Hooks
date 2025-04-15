@@ -9,5 +9,4 @@ function Text({ title, value }) {
   );
 }
 
-// React.memo 적용
-export default React.memo(Text);
+// TODO: React.memo를 사용하여 props가 변경되지 않으면 재렌더링을 방지
